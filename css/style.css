@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo p {
+    font-size: 28px;
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 4%;
+}
+
+a {
+    text-decoration: none;
+    color: #818181;
+}
+
+a:visited{
+    color: #818181;
+}
+
+@media (min-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav {
+        width: 30%;
+    }
+}
+
+.sec1 img {
+    width: 100%;
+}
+
+.sec2img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2img p {
+    margin: 3%;
+    text-align: center;
+    font-size: small;
+}
+
+.sec2img p:nth-child(2) {
+    color: #77abf5;
+}
+
+.sec2img p:nth-child(3) {
+    color: #b5b5b5;
+}
+
+@media (min-width: 1024px) {
+    .sec2 {
+        display: flex;
+        margin: 0 10%;
+    }
+
+    .sec2img img {
+        width: 60%
+    }
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3img p {
+    margin: 8% 0 0 0;
+    font-size: xx-large;
+    color: #66686a;
+}
+
+.sec3 img {
+    width: 100%;
+}
+
+.sec3text {
+    font-size: x-large;
+    color: #66686a;
+}
+
+.sec3text p:nth-child(1) {
+    margin-left: 5%;
+    text-align: left;
+    font-size: smaller;
+}
+
+.sec3text p:nth-child(2) {
+    padding: 4% 5%;
+    font-size: small;
+    line-height: 150%;
+    color: #b1b1b1;
+}
+
+@media (min-width: 1020px) {
+   .sec3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+   }
+
+   .sec3img {
+        width: 33%;
+        text-align: center;
+   }
+
+   .sec3text {
+        width: 40%;
+   }
+
+   .sec3text p:nth-child(2) {
+        font-size: 60%;
+        line-height: 150%;
+   }
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+    border-top: 5px solid #f1f1f1;
+}
+
+footer p {
+    font-size: smaller;
+    color: #b1b1b1;
+    padding-top: 3%;
+}
+
+@media (min-width: 1024px) {
+    
+    footer {
+        height: 70px;
+    }
+}
